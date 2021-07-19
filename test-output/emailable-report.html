@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num attn">5</td><td class="num">0</td><td class="num attn">1</td><td class="num">25,468</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">jun27.LoginToApp</td><td><a href="#m0">beforeTest</a></td><td rowspan="1">1625286850561</td><td rowspan="1">1</td></tr><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">jun27.LoginToApp</td><td><a href="#m1">login2</a></td><td rowspan="1">1625286850550</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="6">jun27.LoginToApp</td><td><a href="#m2">afterTest</a></td><td rowspan="5">1625286868608</td><td rowspan="5">-1625286868608</td></tr><tr class="skippedeven"><td><a href="#m3">afterTest</a></td></tr><tr class="skippedeven"><td><a href="#m4">afterTest</a></td></tr><tr class="skippedeven"><td><a href="#m5">afterTest</a></td></tr><tr class="skippedeven"><td><a href="#m6">afterTest</a></td></tr><tr class="skippedeven"><td><a href="#m7">beforeTest</a></td><td rowspan="1">1625286850574</td><td rowspan="1">-1625286850574</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="5">jun27.LoginToApp</td><td><a href="#m8">Login</a></td><td rowspan="1">1625286871022</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m9">login3</a></td><td rowspan="1">1625286862119</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m10">login4</a></td><td rowspan="1">1625286850568</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m11">search</a></td><td rowspan="1">1625286868605</td><td rowspan="1">1</td></tr><tr class="skippedeven"><td><a href="#m12">verifyContactUs</a></td><td rowspan="1">1625286850576</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">jun27.CreateAccountTestcase</td><td><a href="#m13">createAccount</a></td><td rowspan="1">1625286864044</td><td rowspan="1">11390</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">jun27.LoginToApp#beforeTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because the return value of &quot;java.util.Properties.getProperty(String)&quot; is null
+	at testbase.TestBase.beforeTest(TestBase.java:55)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">jun27.LoginToApp#login2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;username&apos; is required by @Test on method login2 but has not been marked @Optional or defined
+in C:\Santosh\Automation\Workspace_new\SeleniumJune\testng-parallel.xml
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">jun27.LoginToApp#afterTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">jun27.LoginToApp#afterTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">jun27.LoginToApp#afterTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">jun27.LoginToApp#afterTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">jun27.LoginToApp#afterTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">jun27.LoginToApp#beforeTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">jun27.LoginToApp#Login</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because the return value of &quot;java.util.Properties.getProperty(String)&quot; is null
+	at testbase.TestBase.beforeTest(TestBase.java:55)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">jun27.LoginToApp#login3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because the return value of &quot;java.util.Properties.getProperty(String)&quot; is null
+	at testbase.TestBase.beforeTest(TestBase.java:55)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">jun27.LoginToApp#login4</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because the return value of &quot;java.util.Properties.getProperty(String)&quot; is null
+	at testbase.TestBase.beforeTest(TestBase.java:55)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">jun27.LoginToApp#search</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because the return value of &quot;java.util.Properties.getProperty(String)&quot; is null
+	at testbase.TestBase.beforeTest(TestBase.java:55)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">jun27.LoginToApp#verifyContactUs</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because the return value of &quot;java.util.Properties.getProperty(String)&quot; is null
+	at testbase.TestBase.beforeTest(TestBase.java:55)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">jun27.CreateAccountTestcase#createAccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
